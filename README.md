@@ -1,1 +1,1 @@
-# html-repository
+# js-repository
