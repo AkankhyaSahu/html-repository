@@ -35,3 +35,26 @@ console.log(typeof heros);
 
 //*JS is statically typed or dynamically typed?
 
+
+//+++++++++++++++++++++++++++++++++++++++++++
+//TYPES OF MEMORY
+
+// Stack (Primitve), Heap (Non-Primitive)
+
+let myHomename = "Akank"
+let anothername = myHomename
+anothername = "twinkle"
+console.log(myHomename); 
+console.log(anothername);
+//Akank
+//twinkle
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+let userTwo = userOne
+userTwo.email = "akank@google.com"
+console.log(ServiceWorkerContainer.email);
+console.log(userTwo.email);
+
