@@ -55,6 +55,7 @@ let userOne = {
 }
 let userTwo = userOne
 userTwo.email = "akank@google.com"
-console.log(ServiceWorkerContainer.email);
+console.log(userOne.email);
 console.log(userTwo.email);
-
+//akank@google.com
+//akank@google.com
